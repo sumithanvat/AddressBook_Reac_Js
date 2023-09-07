@@ -1,0 +1,43 @@
+/* Display.css */
+
+.display {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .display th,
+  .display td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .display th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .display img.profile {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    display: block; /* Add this to remove any extra spacing around the image */
+  }
+  
+  .display td.actions img {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  /* Add any other styles you need here */
+  
+  /* Optional: Add hover styles for better interactivity */
+  .display tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .display td.actions img:hover {
+    opacity: 0.7;
+  }
+  
